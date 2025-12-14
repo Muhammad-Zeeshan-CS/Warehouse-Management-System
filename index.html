@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="pic1.png" rel="icon">
+    
+
+
+</head>
+<body>
+    <!-- header part -->
+    <header>
+        <h1 id="storename">Store Name</h1>
+        <div id="namepic">
+            <img id="perpic" src="image.png" alt="">
+            <h3 id="pername">Zeeshan Khan</h3>
+        </div>
+        <div id="setting"></div>
+    </header>
+    <!---main part-->
+    <main> 
+        <!--first section-->
+        <section id="firstsection">
+            <form id="searchform" action="">
+                <select  id="category"name="category" id="category">
+                    <option selected value="none">Category:</option>
+                    <option value="all_items">All Items</option>
+                    <option value="electronics">Electronics</option>
+                </select>
+                <input id="search" name="search"type="search" placeholder="Search Item">
+                <button id="searchicon" type="submit">Search Icon</button>
+            </form>
+        </section>
+        <!--card section-->
+        <section  id="cardsection">
+            <!--card-->
+            <div class="cards">
+                <img class="itempic" src="image.png" alt="">
+                <div class="cardinfo">
+                    <p class="itemname" class="aligncenter">Name: my name is zeeshan khan and my father name is azam khan</p>
+                    <p class="itemprice" class="aligncenter">Rs:</p>
+                    <p class="itemdiscount" class="aligncenter">Discount:</p>
+                    <p class="remainingitems" class="aligncenter">Remaining:</p>
+                </div>
+                <a class="deduct" href="">DEDUCT</a>
+            </div>
+        </section>
+        <div>
+            <img class="updownarr" id="downarr" src="abc" alt="">
+            <img class="updownarr" id="uparr" src="abc" alt="">
+        </div>
+        <!--bottom section-->
+
+        <section id="bottomsection">
+                <a id="addcardlink" href="addItem.html">Add Item</a>
+        </section>
+    
+        <script src="script.js"></script>
+
+    </main>
+</body>
+</html>
